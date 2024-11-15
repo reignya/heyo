@@ -1,0 +1,16 @@
+SQL Error in VIEW--TRANSAC.PHP: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') AS FormattedInTimeFromLogin, 
+            DATE_FORMAT(tblmanual_logout.Tim...' at line 10SQL Error in VIEW--TRANSAC.PHP: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT TIMEIN, TIMEOUT FROM tblqr_login WHERE ID = '1';
+
+            tblqr_...' at line 2SQL Error in VIEW--TRANSAC.PHP: Unknown column 'tblmanual_logout.TimeIn' in 'on clause'SQL Error in VIEW--TRANSAC.PHP: Unknown column 'tblqr_logout.TIMEIN' in 'on clause'SQL Error in VIEW--TRANSAC.PHP: Unknown column 'tblmanual_logout.TimeIn' in 'on clause'SQL Error in VIEW--TRANSAC.PHP: Unknown column 'tblmanual_logout.TimeIn' in 'on clause'SQL Error in VIEW--TRANSAC.PHP: Unknown column 'tblqr_logout.TIMEIN' in 'on clause'SQL Error in VIEW--TRANSAC.PHP: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''Manual' AS Source 
+    FROM 
+        tblmanual_login 
+    INNER JOIN 
+  ...' at line 12SQL Error in VIEW--TRANSAC.PHP: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''QR' AS Source 
+    FROM 
+        tblqr_login 
+    INNER JOIN 
+        tb...' at line 12SQL Error in VIEW--TRANSAC.PHP: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''QR' AS Source 
+    FROM 
+        tblqr_login 
+    INNER JOIN 
+        tb...' at line 12

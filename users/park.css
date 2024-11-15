@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 2px;
+}
+
+.hidbut {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.draggable-container {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: move;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    z-index: 1;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.gallery img {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.container {
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+padding: 10px;
+margin: 9px;
+ }
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    background-color: orange;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+button:hover {
+    background-color: #0066b2;
+    color: white;
+}
+
+.sub-container {
+    display: none;
+    text-align: center;
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: -10px;
+    max-width: 300px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.sub-container img {
+    width: 100%;
+    max-width: 250px; 
+    border-radius: 8px;
+}
+
+.sub-container p, .sub-container li {
+    margin-top: 10px;
+}
+
+.content {
+    width: 60%;
+    margin-top: 60px; 
+}
+
+img {
+    height: 25vh;
+    width: 5vw;
+}
+
+#students .card {
+    max-height: 60vh; /* Set a maximum height for the sub-container */
+    overflow-y: auto; /* Enable vertical scrolling for the sub-container */
+}
+
+#students .card {
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+#students .card img {
+width: 45%; /* Adjust the width of the images as needed */
+max-height: 45%; /* Set a maximum height for the images */
+border-radius: 8px;
+margin-bottom: 10px;
+}
+
+#students .card h3,
+#students .card li {
+width: 45%; /* Adjust the width of the text as needed */
+}
