@@ -586,10 +586,10 @@ document.addEventListener('DOMContentLoaded', function () {
         <div class="container">
           
         <a class="navbar-item" href="users/service.php" id="surbtn"><i class="bi bi-headset"></i></a>
-          <a class="navbar-brand" id="title" style="color:white; position: absolute; margin-left: 3.5em;">  111 CTU Danao Parking System</a>
+          <a class="navbar-brand" id="title" style="color:white; position: absolute; margin-left: 3.5em;">CTU Danao Parking System</a>
             <div class="navbar-menu">   
                 <a class="navbar-item" href="admin/index.php">Admin</a>
-                <a class="navbar-item" href="guard/login.php">Security</a>
+                <a class="navbar-item" href="guard/login.php">GUARD</a>
                 <a class="navbar-item" href="users/login.php">Client</a>
                 <a class="navbar-item" href="index.html">About</a>
                 <a class="navbar-item btn btn-primary" href="#" id="surbtn" data-toggle="modal" data-target="#commentModal">
@@ -644,7 +644,7 @@ document.addEventListener('DOMContentLoaded', function () {
             <!-- Masthead Avatar Image-->
             <img class="masthead-avatar" src="images/welcome.png" alt="Logo" />
             <!-- Masthead Heading-->
-            <h1 class="masthead-heading">2222222222 CTU DANAO PARKING SYSTEM</h1>
+            <h1 class="masthead-heading">CTU DANAO PARKING SYSTEM</h1>
             <!-- Icon Divider-->
             <div class="divider-custom">
     <div class="divider-custom-icon">
